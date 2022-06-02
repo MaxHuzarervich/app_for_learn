@@ -1,0 +1,20 @@
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #336633;
+    border-radius: 10px;
+    position: fixed;
+    background: #006633;
+    left: -20px;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    transition: left .2s linear;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.back:hover {
+    left: -10px;
+}
