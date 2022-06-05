@@ -10,11 +10,12 @@
     width: 100px;
     height: 50px;
     margin-top: 20px;
-    transition: left .2s linear;
     text-align: center;
     text-decoration: none;
     color: white;
+    transition: 0.3s all ease-in;
 }
 .back:hover {
     left: -10px;
+    border: 5px solid white;
 }
