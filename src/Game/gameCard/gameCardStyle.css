@@ -1,0 +1,30 @@
+.game {
+    border-radius: 10px;
+    margin: 20px;
+    background: #006633;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px #336633;
+    transition: 0.3s all ease-in;
+}
+.game:hover {
+    box-shadow:
+            1px 1px #336633,
+            2px 2px #336633,
+            3px 3px #336633,
+            4px 4px #336633,
+            5px 5px #336633,
+            6px 6px #336633,
+            7px 7px #336633;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+}
+.game div {
+    margin-top: 30%;
+}
+
+.titleGame {
+    color: #E6E6FA;
+    text-decoration: none;
+}

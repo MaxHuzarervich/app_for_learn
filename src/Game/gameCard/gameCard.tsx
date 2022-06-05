@@ -2,6 +2,7 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import useSound from "use-sound";
 import soundClickToGame from "../../assets/audio/soundClickToGame.mp3";
+import './gameCardStyle.css'
 
 type titleGameType = {
     title: string;
