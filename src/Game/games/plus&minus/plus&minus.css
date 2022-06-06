@@ -6,19 +6,28 @@
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 .plusMinusGame input {
     background-color: transparent;
     Border: none;
     outline: none;
-    font-size: xx-large;
     border-bottom: 3px solid #006633;
     width: 20%;
     text-align: center;
     caret-color : #006633;
-    color: white;
+    -webkit-text-stroke: 1px #006633;
+    font-size: xxx-large;
+}
+.plusMinusGame span {
+    -webkit-text-stroke: 1px #006633;
+}
+.plusMinusGame h5:hover {
+    -webkit-text-stroke: 1px white;
+}
+.plusMinusGame span:hover {
+    -webkit-text-stroke: 1px white;
 }
 
 

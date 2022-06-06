@@ -26,19 +26,21 @@ export const PlusMinus = () => {
         <div>
             <ButtonBack to={'/game'}/>
             <div className='plusMinusGame'>
+                    <h5>1 + 1 = 2</h5>
                 <div>
                     <input onChange={handler} value={num}/>
                     <span>+</span>
                     <input onChange={handler2} value={num2}/>
                     <span>=</span>
-                    {parseFloat(num) + parseFloat(num2)}
+                    <span>{parseFloat(num) + parseFloat(num2)}</span>
                 </div>
+                <h5>3 - 1 = 2</h5>
                 <div>
                     <input onChange={handler3} value={num3}/>
                     <span>-</span>
                     <input onChange={handler4} value={num4}/>
                     <span>=</span>
-                    {parseFloat(num3) - parseFloat(num4)}
+                    <span>{parseFloat(num3) - parseFloat(num4)}</span>
                 </div>
             </div>
         </div>
