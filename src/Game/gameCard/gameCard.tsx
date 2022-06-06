@@ -8,6 +8,7 @@ type titleGameType = {
     title: string;
     title2: string;
     title3: string;
+    to: string
 }
 
 export const GameCard = (props: titleGameType) => {
@@ -18,7 +19,7 @@ export const GameCard = (props: titleGameType) => {
         <div className='game'
              onMouseEnter={()=>play()}
              onMouseLeave={()=>stop()}>
-            <NavLink to='/gameNumbers'
+            <NavLink to={props.to}
                      className='titleGame'
             >
                 <div>
