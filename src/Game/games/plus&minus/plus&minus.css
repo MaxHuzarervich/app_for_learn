@@ -11,9 +11,8 @@
 
 .plusMinusGame input {
     background-color: transparent;
-    Border: none;
     outline: none;
-    border-bottom: 3px solid #006633;
+    border: 3px solid #006633;
     width: 20%;
     text-align: center;
     caret-color : #006633;
